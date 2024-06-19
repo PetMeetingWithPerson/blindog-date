@@ -1,0 +1,7 @@
+
+spring:
+  r2dbc:
+    master:
+      username: root
+      password: root
+      r2dbcUrl: r2dbc:pool:mariadb://127.0.0.1:3306/blind_dog_date?connectTimeout=PT2S&maxSize=10&maxIdleTime=PT5M&maxLifeTime=PT10M&useSSL=false&allowPublicKeyRetrieval=true
