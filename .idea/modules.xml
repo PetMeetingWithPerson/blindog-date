@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blind-dog-date.iml" filepath="$PROJECT_DIR$/blind-dog-date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/blind-dog-date.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/blind-dog-date.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/blind-dog-date.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/blind-dog-date.core.main.iml" />
+    </modules>
+  </component>
+</project>
