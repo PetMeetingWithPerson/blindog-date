@@ -28,21 +28,10 @@ class MasterConfiguration(
     @Bean
     fun masterConnectionFactory(): ConnectionFactory {
         return ConnectionFactoryBuilder.withUrl(r2dbcProperties.master.r2dbcUrl)
-            .username("root")
-            .password("root")
+            .username(r2dbcProperties.master.username)
+            .password(r2dbcProperties.master.password)
             .build()
 
-
-//        return ConnectionFactories.get(
-//            parse(r2dbcProperties.master.r2dbcUrl)
-////            parse("r2dbc:pool:mariadb://127.0.0.1:3306/blind_dog_date")
-//                .mutate()
-////                .option(DRIVER, "pool")
-////                .option(DATABASE, "mysql")
-//                .option(USER, r2dbcProperties.master.username)
-//                .option(PASSWORD, r2dbcProperties.master.password)
-//                .build(),
-//        )
     }
 
     @Primary
