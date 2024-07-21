@@ -15,7 +15,6 @@ class WebSocketConfiguration {
     fun handlerMapping(bDDWebSocketHandler: BDDWebSocketHandler): HandlerMapping =
         SimpleUrlHandlerMapping(mapOf("/ws" to bDDWebSocketHandler), -1)
 
-
 //    @Bean
 //    fun webSocketHandlerAdapter(): WebSocketHandlerAdapter =
 //        WebSocketHandlerAdapter(webSocketService())
