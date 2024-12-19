@@ -1,9 +1,7 @@
 package com.greedy.blinddogdate.configuration
 
 import com.greedy.blinddogdate.properties.R2dbcProperties
-import io.r2dbc.spi.ConnectionFactories
 import io.r2dbc.spi.ConnectionFactory
-import io.r2dbc.spi.ConnectionFactoryOptions.*
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.boot.r2dbc.ConnectionFactoryBuilder
 import org.springframework.context.annotation.Bean

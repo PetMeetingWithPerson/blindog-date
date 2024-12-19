@@ -39,3 +39,7 @@ out/
 ### Kotlin ###
 .kotlin
 >>>>>>> master
+
+
+core/build
+api/build

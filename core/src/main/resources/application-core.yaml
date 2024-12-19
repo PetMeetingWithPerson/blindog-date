@@ -1,7 +1,22 @@
-
 spring:
   r2dbc:
     master:
       username: root
       password: root
       r2dbcUrl: r2dbc:pool:mariadb://127.0.0.1:3306/blind_dog_date?connectTimeout=PT2S&maxSize=10&maxIdleTime=PT5M&maxLifeTime=PT10M&useSSL=false&allowPublicKeyRetrieval=true
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: bdd
+      username: theo2
+      password: theo2
+      port: 27017
+  session:
+    redis:
+      flush-mode: immediate
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.web.reactive.socket: DEBUG
+    org.springframework.data.mongodb.core: DEBUG
